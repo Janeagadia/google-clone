@@ -1,0 +1,145 @@
+.head {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+  color: rgba(14, 14, 15, 0.767);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.mode {
+  background-color: #333;
+  color: #fff;
+}
+.clone-main {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  justify-items: center;
+  width: 40rem;
+}
+.search-container input {
+  justify-items: center;
+  border-radius: 30px;
+  border-color: rgba(0, 0, 0, 0.151);
+  outline: none;
+  height: 3rem;
+  margin-top: 20px;
+  padding-left: 25px;
+  width: 100%;
+}
+
+.search-container input:hover {
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 2.1rem;
+  opacity: 0.5;
+}
+.mic-icon {
+  position: absolute;
+  left: 38rem;
+  top: 2rem;
+  opacity: 0.5;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.offered {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.offered a:link {
+  display: inline-block;
+  padding: 5px;
+  color: #0000ff;
+  text-decoration: none;
+}
+.offered a:link,
+.offered a:visited {
+  color: #0000ff;
+}
+.offered a:hover,
+.offered a:active {
+  color: #ff4800cc;
+  text-decoration: underline;
+}
+
+.bottom-page {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1px 2px;
+  color: rgba(0, 0, 0, 0.726);
+  background-color: rgba(128, 128, 128, 0.068);
+}
+.footer-country {
+  padding-left: 30px;
+}
+.carbon {
+  text-align: center;
+  margin-bottom: 0;
+}
+.foooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+hr {
+  padding: 0;
+}
+.foot1 {
+  display: flex;
+  gap: 30px;
+  margin: 0px 30px;
+  margin-top: -40px;
+}
+
+/* #darkmode */
+/* .dark-clone {
+  background-color: #222;
+}
+.head-link {
+  color: #fff;
+}
+.head-image {
+  fill: red;
+  stroke: #fff;
+}
+.search-container input {
+  background-color: #222;
+  border: 1px solid rgba(255, 255, 255, 0.212);
+   border-color: #fff; 
+}
+.offered-dark {
+  color: #fff;
+}
+.btm-dark {
+  color: #fff;
+}
+.dark-btn {
+  background-color: #333;
+  color: #fff; 
+}  */
